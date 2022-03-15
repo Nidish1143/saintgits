@@ -1,0 +1,13 @@
+lls
+mkdir
+print("range of index to print third, fourth and fifth")
+t=(1,2,3,4,5,9,7,8)
+for i in range(t[1],t[4]):
+ print(t[i])
+print(t[-5])
+print(t[:])
+print(4 in t)
+print(6 in t)
+print(t.count(6))
+print(t.index(9))
+print(3 not in t)
